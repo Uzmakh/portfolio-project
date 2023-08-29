@@ -1,101 +1,121 @@
-*, *::after, *::before{
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --branding-color:  #F9F7FE;
-    --heading-font-family:  'Playfair Display', serif;
+
+:root {
+    --branding-color: #F9F7FE;
+    --heading-font-family: 'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
     --secondary-color: #272142;
 }
-body{
+
+body {
     font-family: var(--default-font-family);
 }
+
 /* =========
         Hero
     ========= */
-.hero{
+.hero {
     background: var(--branding-color);
     color: var(--seconary-color);
     text-align: center;
     padding: 160px 0;
 }
-h1 ,h2, h3{
+
+h1,
+h2,
+h3 {
     font-family: var(--heading-font-family);
 }
-h1{
+
+h1 {
     font-size: 55px;
 }
-h2{
+
+h2 {
     font-size: 64px;
 }
-p{
+
+p {
     font-size: 16px;
     font-weight: normal;
     line-height: 30px;
     color: var(--secondary-color);
     /* opacity: 0.7; */
-   
+
 }
- .hero p, h3{
-        font-family: var(--default-font-family);
+
+.hero p,
+h3 {
+    font-family: var(--default-font-family);
     font-size: 25px;
     font-weight: 400;
     line-height: 2;
     opacity: 0.6;
 }
 
-.btn-branding{
+.btn-branding {
     color: #FFF;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 27px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
 
-border-radius: 4px;
-background: #6C63FF;
-padding: 18px 30px;
+    border-radius: 4px;
+    background: #6C63FF;
+    padding: 18px 30px;
 }
-.btn-branding-outline{
+
+.btn-branding-outline {
     background: var(--secondary-color-color);
     border: 2px solid var(--secondary-color);
-   padding: 18px 30px; 
-   border-radius: 4px;
-   line-height: 27px;
-   font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
+    padding: 18px 30px;
+    border-radius: 4px;
+    line-height: 27px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
 
 }
-.project-description{
+
+.project-description {
     padding: 100px 60px;
 }
-@media(max-width: 1200px){
-   
-    .project-description{
+
+@media(max-width: 1200px) {
+
+    .project-description {
         padding-top: 10px;
     }
-   
-    .project-description h2{
-        font-size: 46px ;
+
+    .project-description h2 {
+        font-size: 46px;
     }
 }
-@media(max-width: 970px){
-    .project-description{
+
+@media(max-width: 970px) {
+    .project-description {
         padding: 0;
     }
-    .project-description h2{
-        font-size: 40px ;
+
+    .project-description h2 {
+        font-size: 40px;
     }
 }
-@media(max-width: 500px){
-    .project-description{
+
+@media(max-width: 500px) {
+    .project-description {
         padding: 0 10px;
     }
-    .project-description h2{
-        font-size: 36px ;
+
+    .project-description h2 {
+        font-size: 36px;
     }
 }
