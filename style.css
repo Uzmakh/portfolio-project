@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--default-font-family);
-  }
+}
 
 /* =========
         Hero
@@ -198,24 +198,28 @@ p {
         Work-Page
        ============
      */
-     .project-content{
-          padding: 160px 20px;
-     }
-      .project-content h1{
-text-align: center;
-      }
-     .project-content h3{
-font-family: var(--default-font-family);
-font-size: 24px;
-font-weight: bold;
-     }
-     .project-content p{
-        font-family: var(--default-font-family);
-        font-size: 14px;
-     }
-     @media(max-width: 576px) {
-        .project-content h1{
-font-size: 45px;
+.project-content {
+    padding: 160px 20px;
+}
 
-      }
+.project-content h1 {
+    text-align: center;
+}
+
+.project-content h3 {
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.project-content p {
+    font-family: var(--default-font-family);
+    font-size: 14px;
+}
+
+@media(max-width: 576px) {
+    .project-content h1 {
+        font-size: 45px;
+
+    }
 }
