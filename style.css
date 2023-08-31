@@ -7,58 +7,64 @@
 }
 
 :root {
-    --branding-color: #F9F7FE;
+    --bg-color: #f9f7fe;
+    --branding-color: #6c63ff;
+    --secondary-color: #272142;
     --heading-font-family: 'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
-    --secondary-color: #272142;
 }
 
 body {
     font-family: var(--default-font-family);
-
+  color: var(--secondary-color);
 }
 
 h1,
 h2,
 h3 {
     font-family: var(--heading-font-family);
+    font-weight: bold;
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 76px;
 }
 
-/* h2 {
+h2 {
     font-size: 64px;
-} */
+}
 
 p {
     font-size: 16px;
     font-weight: normal;
     line-height: 2;
-    color: var(--secondary-color);
-    /* opacity: 0.7; */
+  }
 
+  .navbar-brand{
+    font-weight: bold;
+   
+  }
+.navbar-nav .nav-link.active{
+    color: var(--branding-color);
+}
+.nav-item{
+    margin-left: 15px;
+    line-height: 25px;
+    font-weight: bold;
 }
 
 /* =========
         Hero
     ========= */
 .hero {
-    background: var(--branding-color);
-    color: var(--seconary-color);
-    text-align: center;
-    padding: 160px 0px;
-
+    background: var(--bg-color);
+text-align: center;
+    padding: 180px 20px;
 }
-
-
 .hero p,
 .hero h3 {
-    font-family: var(--default-font-family);
     font-size: 25px;
     font-weight: 400;
-    line-height: 2;
     opacity: 0.6;
 }
 
@@ -70,13 +76,14 @@ p {
     font-weight: 500;
     line-height: 27px;
     border-radius: 4px;
-    background: #6C63FF;
+    background: var(--branding-color);
     padding: 18px 30px;
 }
 
 .btn-branding-outline {
-    background: var(--secondary-color-color);
-    border: 2px solid var(--secondary-color);
+    background: transparent;
+    border: 2px solid var(--branding-color);
+    color: var(--branding-color);
     padding: 18px 30px;
     border-radius: 4px;
     line-height: 27px;
