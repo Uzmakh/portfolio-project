@@ -173,6 +173,9 @@ p {
     /* border: 1px solid red; */
     margin: 30px;
 }
+.about-img img{
+margin-right:10px;
+}
 
 @media(max-width: 1200px) {
 
@@ -207,11 +210,6 @@ p {
 }
 
 @media(max-width: 576px) {
-    body {
-        overflow-x: hidden;
-        text-align: center;
-    }
-
     .about-content {
         padding: 25px;
     }
